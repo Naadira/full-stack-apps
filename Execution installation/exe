@@ -1,0 +1,12 @@
+for backend: 
+1. npm init -y
+2. npm install express --save-dev nodemon --save-dev dotenv cors mongoose
+3. put "start":"nodemon app.js" in package.json scripts
+4. npm start
+
+
+
+for frontend:
+1.npm install axios react-router-dom
+2.in package.json scripts change "dev" to "start"
+3.npm start
